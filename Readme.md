@@ -41,15 +41,7 @@ The `hodgkin-huxley` folder contains a mechanistic model of neuronal excitabilit
 The model describes the membrane potential using sodium, potassium, and leak currents:
 
 $$
-C_m\frac{dV}{dt}
-=
-I_{\mathrm{ext}}
--
-I_{\mathrm{Na}}
--
-I_{\mathrm{K}}
--
-I_{\mathrm{L}}
+C_m \frac{dV}{dt} = I_{\mathrm{ext}} - I_{\mathrm{Na}} - I_{\mathrm{K}} - I_{\mathrm{L}}
 $$
 
 The sodium and potassium currents are controlled by voltage-dependent gating variables:
